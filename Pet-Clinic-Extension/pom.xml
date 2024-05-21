@@ -44,6 +44,7 @@
                         install
                     </goals>
                     <releaseProfiles>release</releaseProfiles>
+                    <autoVersionSubmodules>true</autoVersionSubmodules> <!-- this will create combination of all modules snapshot in one -->
                 </configuration>
             </plugin>
         </plugins>
