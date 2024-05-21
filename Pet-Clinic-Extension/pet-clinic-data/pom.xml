@@ -4,7 +4,7 @@
     <parent>
         <groupId>gsf.springframework</groupId>
         <artifactId>Pet-Clinic-Extension</artifactId>
-        <version>0.0.2</version>
+        <version>0.0.3-SNAPSHOT</version>
     </parent>
 
     <artifactId>pet-clinic-data</artifactId>
