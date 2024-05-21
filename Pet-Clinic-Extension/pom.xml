@@ -50,7 +50,6 @@
         </plugins>
     </build>
 
-    <scm><developerConnection>scm:git:git@github.com:Nikhil-Devabhaktuni/Pet-Clinic-Extension.git</developerConnection>  <tag>Pet-Clinic-Extension-0.0.2</tag>
-  </scm>
+    <scm><developerConnection>scm:git:git@github.com:Nikhil-Devabhaktuni/Pet-Clinic-Extension.git</developerConnection></scm>
 
 </project>
