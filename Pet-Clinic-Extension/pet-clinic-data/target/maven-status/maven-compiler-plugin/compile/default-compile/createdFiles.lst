@@ -1,6 +1,5 @@
 gsf\springframework\model\Person.class
 gsf\springframework\model\Owner.class
-gsf\springframework\main\Main.class
 gsf\springframework\model\PetType.class
 gsf\springframework\model\Vet.class
 gsf\springframework\model\Pet.class
