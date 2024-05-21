@@ -33,16 +33,23 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-release-plugin</artifactId>
                 <configuration>
-                    <excludes>
-                        <exclude>
-                            <groupId>org.projectlombok</groupId>
-                            <artifactId>lombok</artifactId>
-                        </exclude>
-                    </excludes>
+                    <!--
+                      During release:perform, enable the "release" profile
+                     -->
+                    <goals>
+                        install
+                    </goals>
+                    <releaseProfiles>release</releaseProfiles>
                 </configuration>
             </plugin>
         </plugins>
     </build>
+
+    <scm><developerConnection>scm:git:git@github.com:Nikhil-Devabhaktuni/Pet-Clinic-Extension.git</developerConnection></scm>
 
 </project>
