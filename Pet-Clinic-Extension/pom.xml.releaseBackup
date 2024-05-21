@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>3.2.5</version>
+        <relativePath /> <!-- lookup parent from repository -->
+    </parent>
+    <groupId>gsf.springframework</groupId>
+    <artifactId>Pet-Clinic-Extension</artifactId>
+    <version>0.0.2-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <name>Pet-Clinic-Extension</name>
+    <description>Pet-Clinic-Extension</description>
+    <modules>
+        <module>pet-clinic-data</module>
+        <module>pet-clinic-web</module>
+    </modules>
+    <properties>
+        <java.version>17</java.version>
+    </properties>
+    <dependencies>
+
+
+
+
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-release-plugin</artifactId>
+                <configuration>
+                    <!--
+                      During release:perform, enable the "release" profile
+                     -->
+                    <goals>
+                        install
+                    </goals>
+                    <releaseProfiles>release</releaseProfiles>
+                    <autoVersionSubmodules>true</autoVersionSubmodules> <!-- this will create combination of all modules snapshot in one -->
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+    <scm><developerConnection>scm:git:git@github.com:Nikhil-Devabhaktuni/Pet-Clinic-Extension.git</developerConnection>  <tag>Pet-Clinic-Extension-0.0.1</tag>
+  </scm>
+
+</project>
