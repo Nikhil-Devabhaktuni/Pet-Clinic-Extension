@@ -51,7 +51,7 @@
     </build>
 
     <scm>
-        <developerConnection>scm:git:git@github.com:Nikhil-Devabhaktuni/Pet-Clinic-Extension.git</developerConnection>
+        <developerConnection>scm:git:git@github.com:Nikhil-Devabhaktuni/Pet-Clinic-Extension.git</developerConnection> <!-- git repo ssh url to automatic save in git -->
       <tag>HEAD</tag>
   </scm>
 
