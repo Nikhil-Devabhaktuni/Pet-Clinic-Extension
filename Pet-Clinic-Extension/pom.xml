@@ -9,7 +9,7 @@
     </parent>
     <groupId>gsf.springframework</groupId>
     <artifactId>Pet-Clinic-Extension</artifactId>
-    <version>0.0.2-SNAPSHOT</version>
+    <version>0.0.2</version>
     <packaging>pom</packaging>
     <name>Pet-Clinic-Extension</name>
     <description>Pet-Clinic-Extension</description>
@@ -50,7 +50,7 @@
         </plugins>
     </build>
 
-    <scm><developerConnection>scm:git:git@github.com:Nikhil-Devabhaktuni/Pet-Clinic-Extension.git</developerConnection>  <tag>Pet-Clinic-Extension-0.0.1</tag>
+    <scm><developerConnection>scm:git:git@github.com:Nikhil-Devabhaktuni/Pet-Clinic-Extension.git</developerConnection>  <tag>Pet-Clinic-Extension-0.0.2</tag>
   </scm>
 
 </project>
