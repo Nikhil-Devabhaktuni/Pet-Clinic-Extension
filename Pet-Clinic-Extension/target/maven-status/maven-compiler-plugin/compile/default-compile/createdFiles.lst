@@ -1,1 +1,6 @@
+gsf\petclinicextension\model\Vet.class
 gsf\petclinicextension\PetClinicExtensionApplication.class
+gsf\petclinicextension\model\Person.class
+gsf\petclinicextension\model\PetType.class
+gsf\petclinicextension\model\Pet.class
+gsf\petclinicextension\model\Owner.class

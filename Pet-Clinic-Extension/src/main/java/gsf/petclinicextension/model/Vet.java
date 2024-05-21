@@ -1,4 +1,4 @@
 package gsf.petclinicextension.model;
 
-public class Vet extends Person{
+public class Vet extends Person {
 }

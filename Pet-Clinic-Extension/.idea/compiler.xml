@@ -9,10 +9,16 @@
         <module name="Pet-Clinic-Extension" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="pet-clinic-data" target="1.5" />
+      <module name="pet-clinic-extention" target="17" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Pet-Clinic-Extension" options="-parameters" />
+      <module name="pet-clinic-data" options="" />
+      <module name="pet-clinic-extention" options="-parameters" />
     </option>
   </component>
 </project>
