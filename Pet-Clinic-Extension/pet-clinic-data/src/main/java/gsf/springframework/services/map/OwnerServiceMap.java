@@ -2,7 +2,6 @@ package gsf.springframework.services.map;
 
 import gsf.springframework.model.Owner;
 import gsf.springframework.services.CrudService;
-import gsf.springframework.services.OwnerService;
 
 import java.util.Set;
 
