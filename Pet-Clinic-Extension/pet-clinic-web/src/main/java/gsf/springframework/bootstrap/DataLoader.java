@@ -17,9 +17,11 @@ public class DataLoader implements CommandLineRunner
     private  final OwnerService ownerService;
     private final VetService vetService;
 
-    public DataLoader() {
-        ownerService = new OwnerServiceMap();
-        vetService = new VetServiceMap();
+    //No need to use autowired annotation because spring will take care of rest. (Spring managed component without override annotation )
+    public DataLoader(OwnerService ownerService, VetService vetService) {
+
+        this.ownerService = ownerService;
+        this.vetService = vetService;
     }
 
 
