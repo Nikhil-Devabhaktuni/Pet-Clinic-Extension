@@ -1,11 +1,11 @@
 package gsf.springframework.services.map;
 
 import gsf.springframework.model.Vet;
-import gsf.springframework.services.CrudService;
+import gsf.springframework.services.VetService;
 
 import java.util.Set;
 
-public class VetServiceMap extends AbstractMapService<Vet, Long> implements CrudService<Vet, Long> {
+public class VetServiceMap extends AbstractMapService<Vet, Long> implements VetService {
     @Override
     public Set<Vet> findAll() {
         return super.findAll();
@@ -17,6 +17,11 @@ public class VetServiceMap extends AbstractMapService<Vet, Long> implements Crud
     }
 
     @Override
+    public Vet save(Vet object) {
+        return super.save(object.getId(), object);
+    }
+
+    @Override
     public void delete(Vet object) {
         super.delete(object);
     }
@@ -24,10 +29,5 @@ public class VetServiceMap extends AbstractMapService<Vet, Long> implements Crud
     @Override
     public void deleteById(Long id) {
         super.deleteById(id);
-    }
-
-    @Override
-    public Vet save(Vet object) {
-        return super.save(object.getId(),object);
     }
 }
