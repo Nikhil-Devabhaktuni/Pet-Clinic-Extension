@@ -1,5 +1,14 @@
-D:\Guru\Pet\Pet-Clinic-Extension\Pet-Clinic-Extension\pet-clinic-data\src\main\java\gsf\springframework\model\PetType.java
+D:\Guru\Pet\Pet-Clinic-Extension\Pet-Clinic-Extension\pet-clinic-data\src\main\java\gsf\springframework\model\BaseEntity.java
 D:\Guru\Pet\Pet-Clinic-Extension\Pet-Clinic-Extension\pet-clinic-data\src\main\java\gsf\springframework\model\Person.java
 D:\Guru\Pet\Pet-Clinic-Extension\Pet-Clinic-Extension\pet-clinic-data\src\main\java\gsf\springframework\model\Pet.java
-D:\Guru\Pet\Pet-Clinic-Extension\Pet-Clinic-Extension\pet-clinic-data\src\main\java\gsf\springframework\model\Owner.java
+D:\Guru\Pet\Pet-Clinic-Extension\Pet-Clinic-Extension\pet-clinic-data\src\main\java\gsf\springframework\services\map\AbstractMapService.java
+D:\Guru\Pet\Pet-Clinic-Extension\Pet-Clinic-Extension\pet-clinic-data\src\main\java\gsf\springframework\services\map\VetServiceMap.java
 D:\Guru\Pet\Pet-Clinic-Extension\Pet-Clinic-Extension\pet-clinic-data\src\main\java\gsf\springframework\model\Vet.java
+D:\Guru\Pet\Pet-Clinic-Extension\Pet-Clinic-Extension\pet-clinic-data\src\main\java\gsf\springframework\services\map\OwnerServiceMap.java
+D:\Guru\Pet\Pet-Clinic-Extension\Pet-Clinic-Extension\pet-clinic-data\src\main\java\gsf\springframework\model\PetType.java
+D:\Guru\Pet\Pet-Clinic-Extension\Pet-Clinic-Extension\pet-clinic-data\src\main\java\gsf\springframework\services\VetService.java
+D:\Guru\Pet\Pet-Clinic-Extension\Pet-Clinic-Extension\pet-clinic-data\src\main\java\gsf\springframework\services\CrudService.java
+D:\Guru\Pet\Pet-Clinic-Extension\Pet-Clinic-Extension\pet-clinic-data\src\main\java\gsf\springframework\services\PetService.java
+D:\Guru\Pet\Pet-Clinic-Extension\Pet-Clinic-Extension\pet-clinic-data\src\main\java\gsf\springframework\services\map\PetServiceMap.java
+D:\Guru\Pet\Pet-Clinic-Extension\Pet-Clinic-Extension\pet-clinic-data\src\main\java\gsf\springframework\services\OwnerService.java
+D:\Guru\Pet\Pet-Clinic-Extension\Pet-Clinic-Extension\pet-clinic-data\src\main\java\gsf\springframework\model\Owner.java

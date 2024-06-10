@@ -1,1 +1,5 @@
+gsf\springframework\bootstrap\DataLoader.class
+gsf\springframework\Controllers\VetController.class
 gsf\springframework\PetClinicExtensionApplication.class
+gsf\springframework\Controllers\IndexController.class
+gsf\springframework\Controllers\OwnerController.class
