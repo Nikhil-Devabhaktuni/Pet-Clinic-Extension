@@ -1,7 +1,9 @@
 package gsf.springframework.bootstrap;
 import gsf.springframework.model.Owner;
+import gsf.springframework.model.PetType;
 import gsf.springframework.model.Vet;
 import gsf.springframework.services.OwnerService;
+import gsf.springframework.services.PetTypeService;
 import gsf.springframework.services.VetService;
 
 import org.springframework.boot.CommandLineRunner;
@@ -12,17 +14,29 @@ public class DataLoader implements CommandLineRunner
 {
     private  final OwnerService ownerService;
     private final VetService vetService;
+    private final PetTypeService petTypeService;
 
     //No need to use autowired annotation because spring will take care of rest. (Spring managed component without override annotation )
-    public DataLoader(OwnerService ownerService, VetService vetService) {
+    public DataLoader(OwnerService ownerService, VetService vetService, PetTypeService petTypeService) {
 
         this.ownerService = ownerService;
         this.vetService = vetService;
+        this.petTypeService = petTypeService;
     }
 
 
     @Override
     public void run(String... args) throws Exception {
+
+
+        PetType dog = new PetType();
+        dog.setName("Dog");
+        PetType cat = new PetType();
+        cat.setName("Cat");
+
+        PetType saveDogPetType=petTypeService.save(dog);
+        PetType saveCatPetType=petTypeService.save(cat);
+
 
         Owner owner1 = new Owner();
         owner1.setFirstName("John");
