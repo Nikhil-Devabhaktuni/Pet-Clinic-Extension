@@ -1,5 +1,6 @@
 package gsf.springframework.bootstrap;
 import gsf.springframework.model.Owner;
+import gsf.springframework.model.Pet;
 import gsf.springframework.model.PetType;
 import gsf.springframework.model.Vet;
 import gsf.springframework.services.OwnerService;
@@ -8,6 +9,8 @@ import gsf.springframework.services.VetService;
 
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
+
+import java.time.LocalDate;
 
 @Component
 public class DataLoader implements CommandLineRunner
@@ -37,17 +40,46 @@ public class DataLoader implements CommandLineRunner
         PetType saveDogPetType=petTypeService.save(dog);
         PetType saveCatPetType=petTypeService.save(cat);
 
+        //Owner Details adding
 
         Owner owner1 = new Owner();
         owner1.setFirstName("John");
         owner1.setLastName("Wick");
+        owner1.setAddress("Dublin");
+        owner1.setCity("San Francisco");
+        owner1.setTelephone("5555555555");
 
+
+        //Owner pet Details for Jhon Owner1.
+
+        Pet John = new Pet();
+        John.setPetType(saveDogPetType);
+        John.setOwner(owner1);
+        John.setBirthDate(LocalDate.now());
+        John.setName("Srikanth");
+        owner1.getPets().add(John);
+
+        // saving owner1.
         ownerService.save(owner1);
 
         Owner owner2 = new Owner();
         owner2.setFirstName("Dua");
         owner2.setLastName("Lipa");
+        owner2.setAddress("india");
+        owner2.setCity("Francisco");
+        owner2.setTelephone("4444444");
+
+
+        Pet Dua = new Pet();
+        Dua.setPetType(saveCatPetType);
+        Dua.setOwner(owner2);
+        Dua.setBirthDate(LocalDate.now());
+        Dua.setName("Me");
+        owner2.getPets().add(Dua);
+
+
         ownerService.save(owner2);
+
 
         System.out.println("owners..... loading");
 
