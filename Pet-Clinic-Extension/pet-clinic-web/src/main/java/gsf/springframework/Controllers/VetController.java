@@ -22,7 +22,7 @@ public class VetController {
     }
 
 
-    @RequestMapping({"vetList"})
+    @RequestMapping({"/vetList","/vets"})
     public String vetList(Model model)
     {
         model.addAttribute("vet",vetService.findAll());
