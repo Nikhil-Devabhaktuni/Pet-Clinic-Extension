@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: gsf.petclinicextension.PetClinicExtensionApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.200 s -- in gsf.petclinicextension.PetClinicExtensionApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.352 s -- in gsf.petclinicextension.PetClinicExtensionApplicationTests
